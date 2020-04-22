@@ -6,7 +6,7 @@ def greet_characters(array)
   
   count = 0
 array.each  do |element|
-  print "Hello #{element}."
+  print "Hello #{element}!"
   count +=1 
 end 
 
@@ -19,7 +19,7 @@ def list_dwarves(array)
   
   count = 1
 array.each_with_index do |element , index|
-  print  "#{index}. #{element}."
+  print  "#{index}. #{element}"
   count +=1 
 end 
   
